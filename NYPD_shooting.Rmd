@@ -16,7 +16,7 @@ output:
 ```{r message=FALSE}
 library(tidyverse)
 library(knitr)
-file_name <- "NYPD_Shooting_Incident_Data__Historic_.csv"
+file_name <- "https://data.cityofnewyork.us/api/views/833y-fsy8/rows.csv?accessType=DOWNLOAD"
 shooting <- read_csv(file_name)
 ```
 
